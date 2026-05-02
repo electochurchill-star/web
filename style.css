@@ -34,7 +34,7 @@ nav ul { display: flex; gap: 20px; list-style: none; }
 
 /* --- HERO --- */
 .hero { height: 550px; color: white; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('img/hero.jpg') center/cover fixed; clip-path: ellipse(120% 100% at 50% 0%); }
-@media (max-width: 850px) { .hero { background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('img/hero_movil.jpg') center/cover no-repeat; } .hero h1 { font-size: 5rem; } }
+@media (max-width: 850px) { .hero { background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('img/hero_movil.JPG') center/cover no-repeat; } .hero h1 { font-size: 5rem; } }
 .hero h1 { font-family: 'Archivo Black', sans-serif; font-size: 5rem; line-height: 0.9; letter-spacing: -3px; text-transform: uppercase; background: linear-gradient(to bottom, #fff, #ccc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 /* --- BOTONES (Problema 2 corregido: más margen superior) --- */
