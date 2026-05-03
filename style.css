@@ -148,6 +148,7 @@ details[open] summary::after { content: "-"; }
 .video-item { background: white; padding: 15px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
 .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; }
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+@media (max-width: 768px) { .video-flex-container { flex-direction: column; gap: 20px; padding: 25px; } .video-column { width: 100%; } .video-text-column { width: 100%; text-align: left; } .video-text-column .btn { display: block; width: 100%; text-align: center; } }
 
 /* --- ESTILOS EXCLUSIVOS GALERÍA --- */
 .grid-galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin: 40px 0 80px; }
